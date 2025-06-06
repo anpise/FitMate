@@ -1,3 +1,14 @@
+---
+title: FitMate
+emoji: 🏋️
+colorFrom: indigo
+colorTo: blue
+sdk: gradio
+sdk_version: "4.16.0"
+app_file: app.py
+pinned: false
+---
+
 # FitMate
 
 A simple fitness chatbot app using Gradio and OpenAI GPT-4o mini.
