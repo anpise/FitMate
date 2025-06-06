@@ -16,4 +16,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.hf }}
-        run: git push https://anpise:$hf@huggingface.co/spaces/anpise/FitMate main
+        run: git push https://anpise:$HF_TOKEN@huggingface.co/spaces/anpise/FitMate main
